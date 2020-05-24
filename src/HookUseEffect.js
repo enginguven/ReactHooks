@@ -17,6 +17,7 @@ const UseEffectlement = () => {
 
   return (
     <div>
+      <h3>useEffect</h3>
       <ul>
         <b>{loading ? "Loading" : "Loaded"}</b>
         {!loading && users.map((user) => <li key={user.id}>{user.name}</li>)}
